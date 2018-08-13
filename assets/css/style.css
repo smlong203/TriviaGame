@@ -1,0 +1,31 @@
+body { 
+	background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center center fixed;
+	background-size: cover;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-circle {
+	max-width: 20%;
+    max-height: 20%;
+}
+
+.answer,
+#timer {
+	font-weight: 600;
+}
+
+#start {
+	color: purple;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: blueviolet;
+	color: blue;
+}
